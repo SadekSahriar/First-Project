@@ -1,1 +1,17 @@
-
+public class Studentinfo {
+public static void main(String[] args){
+String name = "Sadek hossain ";
+String studentId = "E253009";
+int age = 23;
+String email="sadek123@example.com";
+String phone = "012352534212";
+String address = "Chittagong, Bangladesh";
+System.out.printf(format:"-------Student Information--------%n");
+System.out.printf(format: "Name : %s\n", name);
+System.out.printf( format: "Student ID : %s\n", studentId);
+System.out.printf( format: "Age: %d\n" , age);
+System.out.printf(format: "Email : %s\n", email);
+System.out.printf(format: "Phone : %s\n", phone);
+System.out.printf( format: "Address : %s\n", address);
+}
+}
