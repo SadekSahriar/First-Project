@@ -1,0 +1,18 @@
+public class Shape {
+    // Rectangle area method
+    static double area(double length, double width) {
+        return length * width;
+    }
+    // Circle area method
+    static double area(double radius) {
+        return Math.PI * radius * radius;
+    }
+    public static void main(String[] args) {
+        System.out.println("Calculating Circle Area");
+        double circleArea = area(4);  // radius = 4
+        System.out.println("Area of the circle: " + circleArea);
+        System.out.println("\nCalculating Rectangle Area");
+        double rectArea = area(4, 8);  // length = 4, width = 8
+        System.out.println("Area of the rectangle: " + rectArea);
+    }
+}
