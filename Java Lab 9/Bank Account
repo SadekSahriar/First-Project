@@ -1,0 +1,22 @@
+class BankAccount {
+    private String accountHolder;
+    private int accountNumber;
+    private double balance;
+    void setAccount(String name, int number, double amount) {
+        accountHolder = name;
+        accountNumber = number;
+        balance = amount;
+    }
+    void showAccountInfo() {
+        System.out.println("Account Holder: " + accountHolder);
+        System.out.println("Account Number: " + accountNumber);
+        System.out.println("Balance: " + balance);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        BankAccount b1 = new BankAccount();
+        b1.setAccount("Rahim", 12345, 5000.50);
+        b1.showAccountInfo();
+    }
+}
